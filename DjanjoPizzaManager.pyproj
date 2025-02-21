@@ -31,6 +31,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DjanjoPizzaManager\deployment.py" />
+    <Compile Include="entrypoint.sh">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="manage.py" />
     <Compile Include="DjanjoPizzaManager\__init__.py" />
     <Compile Include="DjanjoPizzaManager\settings.py" />
@@ -60,6 +64,7 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include=".production" />
+    <Content Include="Dockerfile" />
     <Content Include="PizzaChef\templates\PizzaChef\index.html" />
     <Content Include="PizzaOwner\templates\PizzaOwner\index.html" />
     <Content Include="requirements.txt" />
