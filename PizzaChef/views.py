@@ -29,25 +29,31 @@ class PizzaCreateView(View):
 
 class PizzaUpdateView(View):
     def post(self, request, pizza_id):
-        name = request.POST.get('name').strip()
+        name = request.POST.get('name', '').strip()
         topping_ids = request.POST.getlist('toppings')
 
         pizza = Pizza.objects.get(id=pizza_id)
+
+        # Check for duplicate pizza names only if a new name is provided
+        if name and Pizza.objects.filter(name__iexact=name).exclude(id=pizza_id).exists():
+            pizzas = Pizza.objects.all()
+            toppings = Topping.objects.all()
+            return render(request, 'pizzachef/index.html', {
+                'pizzas': pizzas,
+                'toppings': toppings,
+                'error_message': f"Pizza '{name}' already exists!",
+            })
+
+        # Update pizza name only if a new name is provided
         if name:
-            if Pizza.objects.filter(name__iexact=name).exclude(id=pizza_id).exists():
-                pizzas = Pizza.objects.all()
-                toppings = Topping.objects.all()
-                return render(request, 'pizzachef/index.html', {
-                    'pizzas': pizzas,
-                    'toppings': toppings,
-                    'error_message': f"Pizza '{name}' already exists!",
-                })
-            else:
-                pizza.name = name.capitalize()
-                pizza.toppings.set(Topping.objects.filter(id__in=topping_ids))
-                pizza.save()
-        
+            pizza.name = name.capitalize()
+
+        # Update toppings
+        pizza.toppings.set(Topping.objects.filter(id__in=topping_ids))
+        pizza.save()
+
         return redirect('pizza_list')
+
 
 class PizzaDeleteView(View):
     def post(self, request, pizza_id):

@@ -66,7 +66,7 @@
             <!-- Edit Form -->
             <form method="post" action="{% url 'pizza_update' pizza.id %}" style="display:inline;">
                 {% csrf_token %}
-                <input type="text" name="name" placeholder="Update Pizza" required>
+                <input type="text" name="name" placeholder="Update Pizza">
 
                 <h4>Edit Toppings:</h4>
                 {% for topping in toppings %}
