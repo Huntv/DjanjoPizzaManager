@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\deployment.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:DjanjoPizzaManager\\deployment.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:DjanjoPizzaManager\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:DjanjoPizzaManager\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\deployment.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DjanjoPizzaManager\\deployment.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,6 +38,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "wsgi.py",
+              "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\wsgi.py",
+              "RelativeDocumentMoniker": "DjanjoPizzaManager\\wsgi.py",
+              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\wsgi.py",
+              "RelativeToolTip": "DjanjoPizzaManager\\wsgi.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-02-21T10:55:38.832Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "requirements.txt",
               "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\requirements.txt",
@@ -46,25 +62,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "settings.py",
               "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\settings.py",
               "RelativeDocumentMoniker": "DjanjoPizzaManager\\settings.py",
               "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\settings.py",
               "RelativeToolTip": "DjanjoPizzaManager\\settings.py",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-02-21T07:20:10.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "deployment.py",
               "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\deployment.py",
               "RelativeDocumentMoniker": "DjanjoPizzaManager\\deployment.py",
-              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\deployment.py*",
-              "RelativeToolTip": "DjanjoPizzaManager\\deployment.py*",
+              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\deployment.py",
+              "RelativeToolTip": "DjanjoPizzaManager\\deployment.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-02-21T06:45:57.342Z",

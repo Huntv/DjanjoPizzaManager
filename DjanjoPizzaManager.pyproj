@@ -31,9 +31,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DjanjoPizzaManager\deployment.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="manage.py" />
     <Compile Include="DjanjoPizzaManager\__init__.py" />
     <Compile Include="DjanjoPizzaManager\settings.py" />
