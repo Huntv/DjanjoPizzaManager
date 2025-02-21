@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Chef - Create Pizza</title>
+</head>
+<body>
+    <h1>Pizza Menu</h1>
+
+    {% if error_message %}
+    <p style="color: red;">{{ error_message }}</p>
+    {% endif %}
+
+    <form method="post" action="{% url 'pizza_create' %}">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="Pizza Name" required>
+
+        <h3>Select Toppings:</h3>
+        {% for topping in toppings %}
+        <input type="checkbox" name="toppings" value="{{ topping.id }}"> {{ topping.name }}<br>
+        {% endfor %}
+
+        <button type="submit">Create Pizza</button>
+    </form>
+
+    <h2>Available Pizzas</h2>
+    <ul>
+        {% for pizza in pizzas %}
+        <li>
+            <strong>{{ pizza.name }}</strong> - Toppings:
+            {% for topping in pizza.toppings.all %}
+            {{ topping.name }}{% if not forloop.last %}, {% endif %}
+            {% endfor %}
+
+            <!-- Edit Form -->
+            <form method="post" action="{% url 'pizza_update' pizza.id %}" style="display:inline;">
+                {% csrf_token %}
+                <input type="text" name="name" value="{{ pizza.name }}" required>
+
+                <h4>Edit Toppings:</h4>
+                {% for topping in toppings %}
+                <input type="checkbox" name="toppings" value="{{ topping.id }}"
+                       {% if topping in pizza.toppings.all %}checked{% endif %}>
+                {{ topping.name }}
+                {% endfor %}
+
+                <button type="submit">Update</button>
+            </form>
+
+            <!-- Delete Form -->
+            <form method="post" action="{% url 'pizza_delete' pizza.id %}" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

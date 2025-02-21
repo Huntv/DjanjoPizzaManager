@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pizza Toppings</title>
+</head>
+
+<body>
+    <h1>Pizza Toppings</h1>
+
+    {% if error_message %}
+    <p style="color: red;">{{ error_message }}</p>
+    {% endif %}
+
+    <form method="post" action="{% url 'topping_create' %}">
+        {% csrf_token %}
+        <input type="text" name="name" placeholder="New Topping" required>
+        <button type="submit">Add Topping</button>
+    </form>
+
+    <ul>
+        {% for topping in toppings %}
+        <li>
+            {{ topping.name }}
+
+            <form method="post" action="{% url 'topping_update' topping.id %}" style="display:inline;">
+                {% csrf_token %}
+                <input type="text" name="name" placeholder="Update Topping" required>
+                <button type="submit">Update</button>
+            </form>
+
+            <form method="post" action="{% url 'topping_delete' topping.id %}" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit">Delete</button>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
