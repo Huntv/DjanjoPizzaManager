@@ -42,10 +42,10 @@ class PizzaUpdateView(View):
                     'toppings': toppings,
                     'error_message': f"Pizza '{name}' already exists!",
                 })
-        else:
-            pizza.name = name.capitalize()
-            pizza.toppings.set(Topping.objects.filter(id__in=topping_ids))
-            pizza.save()
+            else:
+                pizza.name = name.capitalize()
+                pizza.toppings.set(Topping.objects.filter(id__in=topping_ids))
+                pizza.save()
         
         return redirect('pizza_list')
 
