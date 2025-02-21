@@ -23,7 +23,7 @@ MIDDLEWARE = [
 ] 
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static    ')
 
 
 conn_str = os.environ['AZURE_POSTGRESQL_CONNECTIONSTRING']
@@ -35,5 +35,6 @@ DATABASES = {
         'HOST': conn_str_params['host'],
         'USER': conn_str_params['user'],
         'PASSWORD': conn_str_params['password'],
+        'PORT' :conn_str_params['port'],
     }
 }
