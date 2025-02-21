@@ -1,6 +1,4 @@
-from ast import Param
-from curses.ascii import SP
-import os
+import os 
 from .settings import *
 from .settings import BASE_DIR
 
@@ -23,7 +21,7 @@ MIDDLEWARE = [
 ] 
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 conn_str = os.environ['AZURE_POSTGRESQL_CONNECTIONSTRING']
@@ -31,10 +29,9 @@ conn_str_params = {pair.split('=')[0]: pair.split('=')[1] for pair in conn_str.s
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pizzamanagerdjango-database',
-        'HOST': 'pizzamanagerdjango-server.postgres.database.azure.com',
-        'USER': 'ezytbsbmjm',
-        'PASSWORD': '$nwbaV$CztFUgZHZ',
-        'PORT' : '5432',
+        'NAME': conn_str_params['dbname'],
+        'HOST': conn_str_params['host'],
+        'USER': conn_str_params['user'],
+        'PASSWORD': conn_str_params['password'],
     }
 }
