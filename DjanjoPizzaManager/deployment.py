@@ -35,6 +35,6 @@ DATABASES = {
          'HOST': 'pizzamanagerdjango-server.postgres.database.azure.com',
          'USER': 'ezytbsbmjm',
          'PASSWORD': '$nwbaV$CztFUgZHZ',
-         'PORT' : '5432',
+         'PORT' : '8000',
     }
 }
