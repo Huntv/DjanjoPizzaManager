@@ -1,7 +1,10 @@
-asgiref==3.8.1
-Django==5.1.6
-psycopg2==2.9.10
-sqlparse==0.5.3
-tzdata==2025.1
-whitenoise==6.9.0
-gunicorn
+﻿asgiref==3.5.2
+backports.zoneinfo==0.2.1
+bootstrap4==0.1.0
+Django==4.0.6
+django-crispy-forms==1.14.0
+psycopg2==2.9.7
+python-dotenv==1.0.0
+sqlparse==0.4.2
+tzdata==2022.1
+whitenoise==6.5.0
