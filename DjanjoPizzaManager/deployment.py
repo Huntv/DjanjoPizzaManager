@@ -4,8 +4,9 @@ from .settings import BASE_DIR
 
 
 SECRET_KEY = os.environ['SECRET']
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['https://' + os.environ['WEBSITE_HOSTNAME']]
+ALLOWED_HOSTS = [os.environ.get('WEBSITE_HOSTNAME', 'pizzamanager-ecbha3bfhqf6d3g7.northeurope-01.azurewebsites.net')]
+CSRF_TRUSTED_ORIGINS = ['https://' + os.environ.get('WEBSITE_HOSTNAME', 'pizzamanager-ecbha3bfhqf6d3g7.northeurope-01.azurewebsites.net')]
+
 DEBUG = True
 
 # WhiteNoise configuration
