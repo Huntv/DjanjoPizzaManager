@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:DjanjoPizzaManager\\deployment.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:DjanjoPizzaManager\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:DjanjoPizzaManager\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaChef\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:PizzaChef\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaOwner\\templates\\PizzaOwner\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:PizzaOwner\\templates\\PizzaOwner\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaOwner\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A25F572F-A231-4273-9501-20A012507FFF}|DjanjoPizzaManager.pyproj|solutionrelative:PizzaOwner\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +22,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-21T08:02:26.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -43,14 +48,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "wsgi.py",
-              "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\wsgi.py",
-              "RelativeDocumentMoniker": "DjanjoPizzaManager\\wsgi.py",
-              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\wsgi.py",
-              "RelativeToolTip": "DjanjoPizzaManager\\wsgi.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Title": "settings.py",
+              "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\settings.py",
+              "RelativeDocumentMoniker": "DjanjoPizzaManager\\settings.py",
+              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\settings.py",
+              "RelativeToolTip": "DjanjoPizzaManager\\settings.py",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-02-21T05:47:36.095Z"
+              "WhenOpened": "2025-02-21T07:20:10.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,58 +66,10 @@
               "RelativeDocumentMoniker": "DjanjoPizzaManager\\deployment.py",
               "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\deployment.py",
               "RelativeToolTip": "DjanjoPizzaManager\\deployment.py",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-02-21T05:44:03.702Z",
+              "WhenOpened": "2025-02-21T06:45:57.342Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "views.py",
-              "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaOwner\\views.py",
-              "RelativeDocumentMoniker": "PizzaOwner\\views.py",
-              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaOwner\\views.py",
-              "RelativeToolTip": "PizzaOwner\\views.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-02-21T03:35:36.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "views.py",
-              "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaChef\\views.py",
-              "RelativeDocumentMoniker": "PizzaChef\\views.py",
-              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaChef\\views.py",
-              "RelativeToolTip": "PizzaChef\\views.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-02-21T03:35:31.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaOwner\\templates\\PizzaOwner\\index.html",
-              "RelativeDocumentMoniker": "PizzaOwner\\templates\\PizzaOwner\\index.html",
-              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\PizzaOwner\\templates\\PizzaOwner\\index.html",
-              "RelativeToolTip": "PizzaOwner\\templates\\PizzaOwner\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAB3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-02-20T03:40:21.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "settings.py",
-              "DocumentMoniker": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\settings.py",
-              "RelativeDocumentMoniker": "DjanjoPizzaManager\\settings.py",
-              "ToolTip": "C:\\Users\\vince\\source\\repos\\DjanjoPizzaManager\\DjanjoPizzaManager\\settings.py",
-              "RelativeToolTip": "DjanjoPizzaManager\\settings.py",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-02-20T01:26:23.916Z"
             }
           ]
         }

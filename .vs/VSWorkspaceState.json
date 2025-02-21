@@ -1,9 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\DjanjoPizzaManager",
-    "\\PizzaOwner"
+    ""
   ],
-  "SelectedNode": "\\DjanjoPizzaManager\\wsgi.py",
+  "SelectedNode": "\\DjanjoPizzaManager.sln",
   "PreviewInSolutionExplorer": false
 }
