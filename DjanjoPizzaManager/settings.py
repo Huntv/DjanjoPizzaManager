@@ -60,7 +60,7 @@ DATABASES = {
         'USER': 'admin',
         'PASSWORD': 'password',
         'HOST': 'localhost',  # Or your PostgreSQL host, e.g., 'your-db-endpoint.amazonaws.com'
-        'PORT': '',  # Default PostgreSQL port
+        'PORT': '5432',  # Default PostgreSQL port
     }
 }
 
