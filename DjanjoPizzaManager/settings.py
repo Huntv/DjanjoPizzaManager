@@ -1,8 +1,7 @@
 import os
-import posixpath
-from unittest.mock import DEFAULT
+from pathlib import Path  # Import Path from pathlib
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = Path(__file__).resolve().parent.parent  # Convert BASE_DIR to a Path object
 
 SECRET_KEY = '3bc1d90d-4805-4858-8782-1d442b1ac8c8'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
@@ -33,7 +32,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'DjanjoPizzaManager.urls'
 
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -52,15 +50,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'DjanjoPizzaManager.wsgi.application'
 
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',  # Using Path to join the file path
     }
 }
-
-
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -88,4 +83,3 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-
