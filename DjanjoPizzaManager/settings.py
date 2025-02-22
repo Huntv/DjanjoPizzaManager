@@ -54,16 +54,14 @@ WSGI_APPLICATION = 'DjanjoPizzaManager.wsgi.application'
 
 
 DATABASES = {
-   DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'pizzadatabase',
+        'NAME': 'pizzamanager',
         'USER': 'admin',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',  # Or your PostgreSQL host, e.g., 'your-db-endpoint.amazonaws.com'
-        'PORT': '',  # Default PostgreSQL port
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
-}
 }
 
 
