@@ -7,7 +7,7 @@ class PizzaListView(View):
     def get(self, request):
         pizzas = Pizza.objects.all()
         toppings = Topping.objects.all()  # Get available toppings
-        return render(request, 'pizzachef/index.html', {'pizzas': pizzas, 'toppings': toppings})
+        return render(request, 'PizzaChef/index.html', {'pizzas': pizzas, 'toppings': toppings})
 
 class PizzaCreateView(View):
     def post(self, request):
@@ -17,7 +17,7 @@ class PizzaCreateView(View):
             if Pizza.objects.filter(name__iexact=name).exists():
                 pizzas = Pizza.objects.all()
                 toppings = Topping.objects.all()
-                return render(request, 'pizzachef/index.html', {
+                return render(request, 'PizzaChef/index.html', {
                     'pizzas': pizzas,
                     'toppings': toppings,
                     'error_message': f"Pizza '{name}' already exists!"
@@ -38,7 +38,7 @@ class PizzaUpdateView(View):
         if name and Pizza.objects.filter(name__iexact=name).exclude(id=pizza_id).exists():
             pizzas = Pizza.objects.all()
             toppings = Topping.objects.all()
-            return render(request, 'pizzachef/index.html', {
+            return render(request, 'PizzaChef/index.html', {
                 'pizzas': pizzas,
                 'toppings': toppings,
                 'error_message': f"Pizza '{name}' already exists!",
