@@ -8,7 +8,7 @@ SECRET_KEY = '3bc1d90d-4805-4858-8782-1d442b1ac8c8'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.189.86.236', 'localhost']
+ALLOWED_HOSTS = ['3.18.70.54', 'localhost']
 
 INSTALLED_APPS = [
     'PizzaOwner',
