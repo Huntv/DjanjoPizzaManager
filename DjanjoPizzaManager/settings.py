@@ -59,7 +59,7 @@ DATABASES = {
         'NAME': 'pizzadatabase',
         'USER': 'admin',
         'PASSWORD': 'password',
-        'HOST': 'localhost',  # Or your PostgreSQL host, e.g., 'your-db-endpoint.amazonaws.com'
+        'HOST': 'localhost',  # Or your PostgreSQL host (e.g., AWS RDS endpoint)
         'PORT': '5432',  # Default PostgreSQL port
     }
 }
