@@ -19,7 +19,7 @@ class ToppingCreateView(View):
                     'error_message': f"Topping '{name}' already exists (case-insensitive)!"
                 })
             else:
-                Topping.objects.create(name=name.capitalize())  # Store with first letter capitalized
+                Topping.objects.create(name=name.title())  # Store with first letter capitalized
         return redirect('topping_list')
 
 class ToppingUpdateView(View):
@@ -34,7 +34,7 @@ class ToppingUpdateView(View):
                 })
             else:
                 topping = Topping.objects.get(id=topping_id)
-                topping.name = name.capitalize()  
+                topping.name = name.title()  
                 topping.save()
         return redirect('topping_list')
 
