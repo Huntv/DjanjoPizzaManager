@@ -25,12 +25,6 @@ python manage.py migrate
 :: Create a superuser (optional, uncomment if needed)
 :: python manage.py createsuperuser
 
-:: Run the Django tests
-echo Running the Django tests...
-python manage.py test
-
-:: Deactivate the virtual environment
-deactivate
-
-:: Pause so you can see the results
-pause
+:: Run the Django development server
+echo Running the Django server...
+python manage.py runserver
