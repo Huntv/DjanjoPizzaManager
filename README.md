@@ -1,6 +1,13 @@
 # Django Pizza Manager
 
-A web application to manage pizza orders with different user roles (e.g., PizzaOwner, PizzaChef). This project is built using Django and runs on a local SQLite database.
+## Brief Overview
+
+A web application to manage pizza orders with different user roles (e.g., PizzaOwner, PizzaChef). This project is built using Django and runs on a local SQLite database. On the cloud it runs on postgreSQL.
+
+
+I chose Django as the framework for this project because Python was the preferred language, and I was already familiar with it. I initially encountered challenges with deploying and testing the .NET framework on my local machine, which led me to switch to Django. For the frontend, I opted for basic HTML as it was the most familiar to me and met the needs of the current stories without introducing unnecessary complexity.
+
+While I began with Azure for hosting, I ran into deployment issues with my Django application, and the deployment process was slower than expected. This led me to transition to AWS, where I gained more control over the environment by connecting to a Linux server, offering better flexibility for my deployment needs.
 
 
 ##Links
@@ -61,5 +68,6 @@ The development server should be deployed at http://127.0.0.1:8000/
 ```
   run_djangotest.bat
 ```
+## Brief Overview on Application
 
 
