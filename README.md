@@ -22,14 +22,29 @@ Before running this project, ensure you have the following installed:
 - Python 3.11
 - pip (Python package installer)
 
+
 ## Manual Setup and Installation (Option 1)
 
 To set up and run the project locally, follow these steps:
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/DjanjoPizzaManager.git
-cd DjanjoPizzaManager
+### 1. Download and Setup repository:
+Download the Repository as a ZIP File:
+
+Go to the GitHub repository page.
+Click on the "Code" button (usually in green).
+Select "Download ZIP".
+Save the ZIP file to a preferred location on your computer.
+
+Locate the downloaded ZIP file (usually in the Downloads folder).
+Right-click on the ZIP file and select "Extract All..." (Windows) or "Extract Here" (Linux/macOS).
+Choose a destination folder and extract the contents.
+
+Press Win + R, type cmd, and press Enter (Windows).
+Open Terminal (macOS/Linux).
+Use the cd command to navigate to the extracted folde
+
+```Example (Windows)
+cd C:\Users\YourUsername\Downloads\repository-name
 ```
 
 ### 2. Setup Virtual Envirnoment
@@ -53,10 +68,25 @@ The development server should be deployed at http://127.0.0.1:8000/
 
 ## Automated Setup and Installation (Option 2)
 
-### 1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/DjanjoPizzaManager.git
-cd DjanjoPizzaManager
+
+### 1. Download and Setup repository:
+Download the Repository as a ZIP File:
+
+Go to the GitHub repository page.
+Click on the "Code" button (usually in green).
+Select "Download ZIP".
+Save the ZIP file to a preferred location on your computer.
+
+Locate the downloaded ZIP file (usually in the Downloads folder).
+Right-click on the ZIP file and select "Extract All..." (Windows) or "Extract Here" (Linux/macOS).
+Choose a destination folder and extract the contents.
+
+Press Win + R, type cmd, and press Enter (Windows).
+Open Terminal (macOS/Linux).
+Use the cd command to navigate to the extracted folde
+
+```Example (Windows)
+cd C:\Users\YourUsername\Downloads\repository-name
 ```
 
 ### 2. Run .bat file
