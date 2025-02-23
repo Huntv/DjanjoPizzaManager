@@ -98,6 +98,15 @@ The development server should be deployed at http://127.0.0.1:8000/
 
 ## Run test locally
 
+### Option 1
+In the directory of DjanjoPizzaManager run this command to individually test the two roles
+```
+python manage.py test PizzaChef #To Test PizzaChef
+python manage.py test PizzaOwner #To Test PizzaOwner
+```
+
+### Option 2
+Run the test automatically via the .bat file
 ```
   run_djangotest.bat
 ```
