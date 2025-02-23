@@ -23,7 +23,7 @@ class PizzaCreateView(View):
                     'error_message': f"Pizza '{name}' already exists!"
                 })
             else:
-                pizza = Pizza.objects.create(name=name.capitalize())  # Save name with capitalization
+                pizza = Pizza.objects.create(name=name.title())  
                 pizza.toppings.set(Topping.objects.filter(id__in=topping_ids))  # Assign toppings
         return redirect('pizza_list')
 
@@ -46,7 +46,7 @@ class PizzaUpdateView(View):
 
         # Update pizza name only if a new name is provided
         if name:
-            pizza.name = name.capitalize()
+            pizza.name = name.title()
 
         # Update toppings
         pizza.toppings.set(Topping.objects.filter(id__in=topping_ids))
