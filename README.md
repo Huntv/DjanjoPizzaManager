@@ -2,6 +2,9 @@
 
 A web application to manage pizza orders with different user roles (e.g., PizzaOwner, PizzaChef). This project is built using Django and runs on a local SQLite database.
 
+
+##Links
+- AWS Deployment: http://3.18.70.54/
 ## Prerequisites
 
 Before running this project, ensure you have the following installed:
