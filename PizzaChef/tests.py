@@ -1,26 +1,17 @@
-"""
-This file demonstrates writing tests using the unittest module. These will pass
-when you run "manage.py test".
-
-Replace this with more appropriate tests for your application.
-"""
-
-import django
 from django.test import TestCase
+from PizzaOwner.models import Topping
+from PizzaChef.models import Pizza
 
-# TODO: Configure your database in settings.py and sync before running tests.
+class PizzaModelTest(TestCase):
 
-class SimpleTest(TestCase):
-    """Tests for the application views."""
+    def test_create_pizza(self):
+        topping1 = Topping.objects.create(name="Cheese")
+        topping2 = Topping.objects.create(name="Pepperoni")
+        pizza = Pizza.objects.create(name="Cheese Pizza")
+        pizza.toppings.set([topping1, topping2])
 
-    # Django requires an explicit setup() when running tests in PTVS
-    @classmethod
-    def setUpClass(cls):
-        super(SimpleTest, cls).setUpClass()
-        django.setup()
-
-    def test_basic_addition(self):
-        """
-        Tests that 1 + 1 always equals 2.
-        """
-        self.assertEqual(1 + 1, 2)
+        # Test that pizza has the correct toppings
+        self.assertIn(topping1, pizza.toppings.all())
+        self.assertIn(topping2, pizza.toppings.all())
+        self.assertEqual(pizza.name, "Cheese Pizza")
+        self.assertEqual(str(pizza), "Cheese Pizza")
