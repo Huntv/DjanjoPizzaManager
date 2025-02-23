@@ -10,8 +10,9 @@ I chose Django as the framework for this project because Python was the preferre
 While I began with Azure for hosting, I ran into deployment issues with my Django application, and the deployment process was slower than expected. This led me to transition to AWS, where I gained more control over the environment by connecting to a Linux server, offering better flexibility for my deployment needs.
 
 
-##Links
+## Links
 - AWS Deployment: http://3.18.70.54/
+
 ## Prerequisites
 
 Before running this project, ensure you have the following installed:
