@@ -85,7 +85,7 @@ Press Win + R, type cmd, and press Enter (Windows).
 Open Terminal (macOS/Linux).
 Use the cd command to navigate to the extracted folde
 
-```Example (Windows)
+```Example 
 cd C:\Users\YourUsername\Downloads\repository-name
 ```
 
