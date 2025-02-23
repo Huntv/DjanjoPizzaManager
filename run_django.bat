@@ -14,6 +14,10 @@ call venv\Scripts\activate.bat
 echo Installing dependencies...
 pip install -r requirements.txt
 
+:: Create migrations for any model changes
+echo Creating migrations for model changes...
+python manage.py makemigrations
+
 :: Apply migrations (sets up the SQLite database)
 echo Applying migrations...
 python manage.py migrate
@@ -21,6 +25,12 @@ python manage.py migrate
 :: Create a superuser (optional, uncomment if needed)
 :: python manage.py createsuperuser
 
-:: Run the Django development server
-echo Running the Django server...
-python manage.py runserver
+:: Run the Django tests
+echo Running the Django tests...
+python manage.py test
+
+:: Deactivate the virtual environment
+deactivate
+
+:: Pause so you can see the results
+pause
