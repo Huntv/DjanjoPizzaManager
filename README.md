@@ -5,9 +5,11 @@
 A web application to manage pizza orders with different user roles (e.g., PizzaOwner, PizzaChef). This project is built using Django and runs on a local SQLite database. On the cloud it runs on postgreSQL.
 
 
-I chose Django as the framework for this project because Python was the preferred language, and I was already familiar with it. I initially encountered challenges with deploying and testing the .NET framework on my local machine, which led me to switch to Django. For the frontend, I opted for basic HTML as it was the most familiar to me and met the needs of the current stories without introducing unnecessary complexity.
+I chose Django as the framework for this project because Python was the preferred language, and I was already familiar with it. I had also encountered difficulties testing the .NET framework locally, which made Django a more suitable option. For the frontend, I used basic HTML since it was the most familiar to me and met the needs of the project without introducing unnecessary complexity.
 
-While I began with Azure for hosting, I ran into deployment issues with my Django application, and the deployment process was slower than expected. This led me to transition to AWS, where I gained more control over the environment by connecting to a Linux server, offering better flexibility for my deployment needs.
+Initially, I hosted the application on Azure, but I faced deployment issues and experienced slow deployment times. As a result, I switched to AWS, which provided more control over the environment by allowing me to connect to a Linux server. This transition gave me the flexibility I needed to manage the application more effectively.
+
+For local development, I used SQLite as the database due to its simplicity and ease of installation. However, for deployment on AWS, I switched to PostgreSQL to ensure better compatibility with the cloud environment and to leverage its more robust features for production use.
 
 
 ## Links
