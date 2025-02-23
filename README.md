@@ -6,7 +6,7 @@ A web application to manage pizza orders with different user roles (e.g., PizzaO
 
 Before running this project, ensure you have the following installed:
 
-- Python 3.x
+- Python 3.11
 - pip (Python package installer)
 
 ## Manual Setup and Installation (Option 1)
