@@ -14,6 +14,10 @@ call venv\Scripts\activate.bat
 echo Installing dependencies...
 pip install -r requirements.txt
 
+:: Create migrations for any model changes
+echo Creating migrations for model changes...
+python manage.py makemigrations
+
 :: Apply migrations (sets up the SQLite database)
 echo Applying migrations...
 python manage.py migrate
